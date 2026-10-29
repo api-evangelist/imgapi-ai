@@ -1,0 +1,26 @@
+aid: imgapi-ai
+name: ImgAPI
+description: 'ImgAPI is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/imgapi-ai/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-10-28'
+modified: '2026-10-28'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://imgapi.ai
+x-submission-notes: Rendered docs /api-docs; async task-ID image API over GPT Image/Nano Banana/Seedream;
+  prepaid credits. Aggregator ok per Kin.
+x-submitted-by: support@imgapi.ai (apis.io/add, 2026-10-27)
