@@ -64,23 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ImgAPI is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+ImgAPI provides an AI-powered image generation service offering text‑to‑image, image‑to‑image, and model comparison capabilities. Users can generate up to three free images daily and access a range of models including GPT, Gemini, Nano Banana, and Seedream. The platform supports paid usage per successful image, offers a pricing page, and supplies comprehensive API documentation for developers to integrate image generation into applications.
 
-**Areas:** Company
+**Areas:** AI · Image Generation · Text-to-Image · Image-to-Image · Model Comparison
 
 ## ImgAPI on APIs.io
 
 Everything profiled for ImgAPI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/imgapi-ai/](https://apis.io/providers/imgapi-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [ImgAPI](https://apis.io/apis/imgapi-ai/imgapi/) — ImgAPI provides an AI-powered image generation service offering text‑to‑image, image‑to‑image, and model comparison capabilities.
+- [ImgAPI API](https://apis.io/apis/imgapi-ai/imgapi-ai-api/) — ImgAPI API as documented publicly: 8 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetApiImgapiCreditsLedgerResponse](https://apis.io/schemas/imgapi-ai/imgapi-ai-get-api-imgapi-credits-ledger-response/)
+- [GetApiV1ImagesGenerationsResponse](https://apis.io/schemas/imgapi-ai/imgapi-ai-get-api-v1-images-generations-response/)
+- [GetApiV1ImagesTasksIdDownloadResponse](https://apis.io/schemas/imgapi-ai/imgapi-ai-get-api-v1-images-tasks-id-download-response/)
+- [GetApiV1ImagesTasksIdResponse](https://apis.io/schemas/imgapi-ai/imgapi-ai-get-api-v1-images-tasks-id-response/)
+- [PostApiV1ImagesGenerationsRequest](https://apis.io/schemas/imgapi-ai/imgapi-ai-post-api-v1-images-generations-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Imgapi Ai Context](https://apis.io/jsonld/imgapi-ai/imgapi-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ImgAPI API Rules](https://apis.io/rules/imgapi-ai/imgapi-ai-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Imgapi Ai Domain Security](https://apis.io/security/imgapi-ai/imgapi-ai-domain-security/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://imgapi.ai)
+- [Documentation](https://imgapi.ai/api-docs)
+- [Getting started](https://imgapi.ai/register)
+- [Pricing](https://imgapi.ai/pricing)
+- [Blog](https://imgapi.ai/blog)
+- [Terms of service](https://imgapi.ai/terms)
+- [Privacy policy](https://imgapi.ai/privacy)
+- [Status](https://imgapi.ai/status)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/imgapi-ai/](https://apis.io/providers/imgapi-ai/).
+**Kin Score 40.8** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 54.0 |
+| Contract governance | 70.9 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 31.6 |
+
+**Agent readiness 19.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 17.3** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/imgapi-ai/](https://apis.io/providers/imgapi-ai/).
 
 ## How this profile is made
 
